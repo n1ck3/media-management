@@ -1,0 +1,47 @@
+body {
+    font-family: "Helvetica", "sans-serif";
+    text-align: center;
+}
+#main {
+    width: 740px;
+    margin: 25% auto;
+}
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: #444444;
+}
+.section {
+    display: block;
+    width: 98px;
+    margin-left: 30px;
+    text-align: center;
+    float: left;
+}
+#main :first-child {
+    margin-left: 0px;
+}
+.section .img {
+    width: 98px;
+    height: 64px;
+}
+.section .title {
+    margin-top: 5px;
+}
+.section .img.sabnzbd {
+    background: url(/img/sabnzbd.png);
+}
+.section .img.sickbeard {
+    background: url(/img/sickbeard.png);
+}
+.section .img.couchpotato {
+    background: url(/img/couchpotato.png);
+}
+.section .img.headphones {
+    background: url(/img/headphones.png);
+}
+.section .img.subsonic {
+    background: url(/img/subsonic.png);
+}
+.section .img.transmission {
+    background: url(/img/transmission.png);
+}
