@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 #main {
-    width: 740px;
+"-d"
     margin: 25% auto;
 }
 a, a:hover, a:visited, a:active {
@@ -47,4 +47,7 @@ a, a:hover, a:visited, a:active {
 }
 .section .img.transmission {
     background: url(/img/transmission.png);
+}
+.section .img.spotweb {
+    background: url(/img/spotweb.png);
 }
