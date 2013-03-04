@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 #main {
-"-d"
+    width: 900px;
     margin: 25% auto;
 }
 a, a:hover, a:visited, a:active {
