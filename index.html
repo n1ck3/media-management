@@ -1,45 +1,102 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
-        <title>b19</title>
-        <link rel="shortcut icon" href="/static/img/favicon.ico" />
-        <link href="/styles.css" rel="stylesheet" media="screen">
+        <title>g173 - newz www</title>
+        <link rel="shortcut icon" href="/img/favicon.png" />
+        <!-- <link href="/styles.css" rel="stylesheet" type="text/css" media="screen" /> -->
+        <style>
+          body {
+              font-family: "Helvetica", "sans-serif";
+              text-align: center;
+          }
+          #main {
+              width: 1060px;
+              margin: 25% auto;
+          }
+          a, a:hover, a:visited, a:active {
+              text-decoration: none;
+              color: #444444;
+          }
+          .section {
+              display: block;
+              width: 98px;
+              margin-left: 30px;
+              text-align: center;
+              float: left;
+          }
+          #main :first-child {
+              margin-left: 0px;
+          }
+          .section .img {
+              width: 98px;
+              height: 64px;
+          }
+          .section .title {
+              margin-top: 5px;
+          }
+          .section .img.plex {
+              background: url(/img/plex.png);
+          }
+          .section .img.sabnzbd {
+              background: url(/img/sabnzbd.png);
+          }
+          .section .img.sickbeard {
+              background: url(/img/sickbeard.png);
+          }
+          .section .img.couchpotato {
+              background: url(/img/couchpotato.png);
+          }
+          .section .img.headphones {
+              background: url(/img/headphones.png);
+          }
+          .section .img.subsonic {
+              background: url(/img/subsonic.png);
+          }
+          .section .img.transmission {
+              background: url(/img/transmission.png);
+          }
+          .section .img.spotweb {
+              background: url(/img/spotweb.png);
+          }
+          .section .img.htpc-io {
+              background: url(/img/htpc-io.png);
+          }
+        </style>
     </head>
     <body>
         <div id="main">
-            <a class="section" href="http://b19.dyndns.org:32400/web">
+            <a class="section" href="http://g173.dyndns.org:32400/web" target="_blank">
                 <div class="img plex"></div>
                 <div class="title">Plex</div>
             </a>
-            <a class="section" href="http://b19.dyndns.org:8080">
+            <a class="section" href="http://g173.dyndns.org:8080" target="_blank">
                 <div class="img sabnzbd"></div>
                 <div class="title">Sabnzbd</div>
             </a>
-            <a class="section" href="http://b19.dyndns.org:8081">
+            <a class="section" href="http://g173.dyndns.org:8081" target="_blank">
                 <div class="img sickbeard"></div>
                 <div class="title">Sickbeard</div>
             </a>
-            <a class="section" href="http://b19.dyndns.org:8082">
+            <a class="section" href="http://g173.dyndns.org:8082" target="_blank">
                 <div class="img couchpotato"></div>
                 <div class="title">Couchpotato</div>
             </a>
-            <a class="section" href="http://b19.dyndns.org:8084">
+            <a class="section" href="http://g173.dyndns.org:8084" target="_blank">
                 <div class="img subsonic"></div>
                 <div class="title">Subsonic</div>
             </a>
-            <a class="section" href="http://b19.dyndns.org:9091">
+            <a class="section" href="http://g173.dyndns.org:8085" target="_blank">
+                <div class="img htpc-io"></div>
+                <div class="title">HTPC</div>
+            </a>
+            <a class="section" href="http://g173.dyndns.org:9091" target="_blank">
                 <div class="img transmission"></div>
                 <div class="title">Transmission</div>
             </a>
-            <a class="section" href="http://b19.dyndns.org:8086">
+            <a class="section" href="http://g173.dyndns.org:8086" target="_blank">
                 <div class="img headphones"></div>
                 <div class="title">Headphones</div>
-            </a>
-            <a class="section" href="http://b19.dyndns.org:8085">
-                <div class="img spotweb"></div>
-                <div class="title">Spotweb</div>
             </a>
         </div>
     </body>
