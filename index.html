@@ -4,14 +4,13 @@
     <head>
         <title>g173 - newz www</title>
         <link rel="shortcut icon" href="/img/favicon.png" />
-        <!-- <link href="/styles.css" rel="stylesheet" type="text/css" media="screen" /> -->
         <style>
           body {
               font-family: "Helvetica", "sans-serif";
               text-align: center;
           }
           #main {
-              width: 1060px;
+              width: 1160px;
               margin: 25% auto;
           }
           a, a:hover, a:visited, a:active {
@@ -62,42 +61,32 @@
           .section .img.htpc-io {
               background: url(/img/htpc-io.png);
           }
+          .section .img.sonos {
+              background: url(/img/sonos.png);
+          }
         </style>
+        <script language="JavaScript">
+            function print_link(port_uri, image_class, title) {
+                document.write('<a class="section" href="' + window.location.protocol + '//' + window.location.hostname + ':' + port_uri + '">');
+                document.write('<div class="img ' + image_class + '"></div>');
+                document.write('<div class="title">' + title + '</div>');
+                document.write('</a>');
+            }
+        </script>
     </head>
     <body>
         <div id="main">
-            <a class="section" href="http://g173.dyndns.org:32400/web" target="_blank">
-                <div class="img plex"></div>
-                <div class="title">Plex</div>
-            </a>
-            <a class="section" href="http://g173.dyndns.org:8080" target="_blank">
-                <div class="img sabnzbd"></div>
-                <div class="title">Sabnzbd</div>
-            </a>
-            <a class="section" href="http://g173.dyndns.org:8081" target="_blank">
-                <div class="img sickbeard"></div>
-                <div class="title">Sickbeard</div>
-            </a>
-            <a class="section" href="http://g173.dyndns.org:8082" target="_blank">
-                <div class="img couchpotato"></div>
-                <div class="title">Couchpotato</div>
-            </a>
-            <a class="section" href="http://g173.dyndns.org:8084" target="_blank">
-                <div class="img subsonic"></div>
-                <div class="title">Subsonic</div>
-            </a>
-            <a class="section" href="http://g173.dyndns.org:8085" target="_blank">
-                <div class="img htpc-io"></div>
-                <div class="title">HTPC</div>
-            </a>
-            <a class="section" href="http://g173.dyndns.org:9091" target="_blank">
-                <div class="img transmission"></div>
-                <div class="title">Transmission</div>
-            </a>
-            <a class="section" href="http://g173.dyndns.org:8086" target="_blank">
-                <div class="img headphones"></div>
-                <div class="title">Headphones</div>
-            </a>
+            <script language="JavaScript">
+                print_link("32400/web", "plex", "Plex");
+                print_link("8080", "sabnzbd", "Sabnzbd");
+                print_link("8081", "sickbeard", "Sickbeard");
+                print_link("8082", "couchpotato", "Couchpotato");
+                print_link("8084", "subsonic", "Subsonic");
+                print_link("8085", "htpc-io", "HTPC");
+                print_link("9091", "transmission", "Transmission");
+                print_link("8086", "headphones", "Headphones");
+                print_link("8087", "sonos", "Sonos");
+            </script>
         </div>
     </body>
 </html>
